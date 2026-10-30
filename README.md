@@ -1,45 +1,40 @@
-# 🌍 World Happiness | Business Intelligence & Data Analytics
+# World Happiness Analysis | Business Intelligence
 
-**2020–2024 | SQL Server • SSIS • Python • Tableau**
+**Business Intelligence & Data Analytics Project | 2020–2024**
 
-A BI project exploring relationships between happiness, economic conditions, peace, social support, and political regimes across countries.
+A data-driven analysis of global happiness trends and their relationships with economic development, social support, health, peace, and political regimes. The project combines multiple datasets and presents insights through an interactive Tableau dashboard.
 
-## 👥 Project Team
+## Project Overview
+
+The goal of this project was to explore what factors are associated with happiness across countries and regions. We integrated World Happiness data with the Global Peace Index, political-regime classifications, and geographic information to support comparative analysis.
+
+## Methodology
+
+1. Collected and prepared datasets covering 2020–2024.
+2. Cleaned and standardized data for consistent country and year comparisons.
+3. Built an ETL workflow using SQL Server Integration Services (SSIS).
+4. Integrated data in SQL Server for analysis and reporting.
+5. Developed interactive Tableau visualizations to explore trends and relationships.
+
+## Key Findings
+
+- **Regional patterns:** European countries showed relatively high happiness scores.
+- **Strong associations:** GDP, social support, and healthy life expectancy were among the indicators most positively associated with happiness.
+- **Peace and stability:** Higher Global Peace Index scores, indicating less peaceful conditions, were associated with lower happiness.
+- **Political regimes:** Full democracies showed the highest average happiness scores in the project's regime comparisons.
+
+These findings describe correlations in the analyzed data and do not establish causation.
+
+## Tools and Technologies
+
+**SQL Server · SSIS · ETL · Tableau · Python · Excel · Data Modeling · Data Visualization**
+
+## Project Deliverables
+
+The Tableau dashboard, supporting dataset, and final presentation will be added to this repository.
+
+## Project Team
+
 **Berlin Shaaban & Manal Hawashi**
 
-## 🎯 Objective
-Analyze global happiness patterns and present clear, actionable insights through data integration and interactive dashboards.
-
-## 🔄 Project Workflow
-1. Gather World Happiness, Global Peace Index, and political-regime datasets.
-2. Clean and standardize data using Python.
-3. Transform and integrate datasets with SSIS and SQL Server.
-4. Explore patterns and relationships across regions and indicators.
-5. Present findings using interactive Tableau dashboards.
-
-## 📊 Main Insights
-- Europe showed relatively high happiness scores.
-- GDP, social support, and healthy life expectancy were among the strongest positive correlates.
-- Higher Global Peace Index scores were associated with lower happiness.
-- Full democracies had higher average happiness scores in the project's regime comparisons.
-
-These are observational associations, not causal conclusions.
-
-## 🧰 Tech Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-
-`SSIS` · `ETL` · `Data Modeling` · `Dashboards` · `Data Analytics`
-
-## 📁 Files
-- `BI_Berlin.twbx` — packaged Tableau dashboard workbook (to be uploaded).
-- `combined_new.xlsx` — supporting Excel data (to be uploaded).
-- `Final_Presentation.pptx` — project presentation (to be uploaded).
-
-## ▶️ How to Explore
-After the Tableau workbook is uploaded, download the `.twbx` file and open it in Tableau Desktop or Tableau Reader.
-
-## 📌 Notes
-Created as a collaborative educational project by **Berlin Shaaban and Manal Hawashi**. Third-party data remains subject to its source terms. Source files, scripts, and detailed data attribution can be added as they become available.
+*Academic Business Intelligence project.*
