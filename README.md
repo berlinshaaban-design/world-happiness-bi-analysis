@@ -1,37 +1,54 @@
 # World Happiness Analysis | Business Intelligence
 
-**Business Intelligence & Data Analytics Project | 2020–2024**
+**Business Intelligence & Data Analytics | 2020–2024**
 
-A data-driven analysis of global happiness trends and their relationships with economic development, social support, health, peace, and political regimes. The project combines multiple datasets and presents insights through an interactive Tableau dashboard.
+An end-to-end Business Intelligence project analyzing global happiness patterns and their relationships with economic development, social support, health, peace, and political regimes. The project integrates multiple datasets through an ETL pipeline and presents the findings in an interactive Tableau dashboard.
 
 ## Project Overview
 
-The goal of this project was to explore what factors are associated with happiness across countries and regions. We integrated World Happiness data with the Global Peace Index, political-regime classifications, and geographic information to support comparative analysis.
+This project combines World Happiness data with Global Peace Index, political-regime, and regional information to compare countries over time and investigate the factors associated with happiness.
 
-## Methodology
+## Workflow
 
-1. Collected and prepared datasets covering 2020–2024.
-2. Cleaned and standardized data for consistent country and year comparisons.
-3. Built an ETL workflow using SQL Server Integration Services (SSIS).
-4. Integrated data in SQL Server for analysis and reporting.
-5. Developed interactive Tableau visualizations to explore trends and relationships.
+1. **Data preparation:** Collected, cleaned, and combined source datasets.
+2. **ETL:** Built a data integration workflow using SQL Server Integration Services (SSIS).
+3. **Data modeling:** Prepared an integrated fact dataset for analysis.
+4. **Analysis:** Compared happiness scores across regions, years, and key indicators.
+5. **Visualization:** Built a Tableau dashboard to explore patterns interactively.
 
 ## Key Findings
 
-- **Regional patterns:** European countries showed relatively high happiness scores.
-- **Strong associations:** GDP, social support, and healthy life expectancy were among the indicators most positively associated with happiness.
-- **Peace and stability:** Higher Global Peace Index scores, indicating less peaceful conditions, were associated with lower happiness.
-- **Political regimes:** Full democracies showed the highest average happiness scores in the project's regime comparisons.
+- **Regional differences:** Europe showed relatively high happiness scores.
+- **Positive associations:** GDP, social support, and healthy life expectancy were among the strongest correlates of happiness.
+- **Peace:** Higher Global Peace Index scores, reflecting less peaceful conditions, were associated with lower happiness scores.
+- **Political regimes:** Full democracies had the highest average happiness scores in the project's regime comparisons.
 
-These findings describe correlations in the analyzed data and do not establish causation.
+*These are observed associations, not evidence of causation.*
 
-## Tools and Technologies
+## Technologies
 
-**SQL Server · SSIS · ETL · Tableau · Python · Excel · Data Modeling · Data Visualization**
+**SQL Server · SSIS · ETL · Tableau · Excel · Data Modeling · Data Analytics · Data Visualization**
 
-## Project Deliverables
+## Project Files
 
-The Tableau dashboard, supporting dataset, and final presentation will be added to this repository.
+| File | Description |
+| --- | --- |
+| [BI_Berlin.twbx](BI_Berlin.twbx) | Packaged interactive Tableau dashboard |
+| [Final Pres.pptx](Final%20Pres.pptx) | Final project presentation |
+| [combined_file (1).xlsx](combined_file%20(1).xlsx) | Combined Excel dataset |
+| [Last_Fact_Table (1).csv](Last_Fact_Table%20(1).csv) | Exported fact table for analysis |
+| [Package.dtsx](Package.dtsx) | SSIS ETL package |
+| [Integration Services Project-סופי.dtproj](Integration%20Services%20Project-%D7%A1%D7%95%D7%A4%D7%99.dtproj) | SSIS project definition |
+| [Integration Services Project-סופי.ispac](Integration%20Services%20Project-%D7%A1%D7%95%D7%A4%D7%99.ispac) | SSIS deployment package |
+
+Additional SSIS project configuration files are also included in the repository.
+
+## Explore the Project
+
+- **Dashboard:** Download `BI_Berlin.twbx` and open it using a compatible version of Tableau.
+- **ETL:** Open the SSIS project in Visual Studio with SQL Server Integration Services support to inspect the data integration workflow.
+- **Data:** Review the Excel workbook and exported CSV fact table.
+- **Presentation:** Open `Final Pres.pptx` for the project overview and findings.
 
 ## Project Team
 
